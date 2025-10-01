@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culleys Introduction</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #2a0a5e, #270bca);
+      color: #f3e9ff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #5e2a84, #270bca);
+      color: gold;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: gold;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #fff;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+      gap: 20px;
+    }
+
+    section {
+      flex: 3;
+      background: rgba(255, 215, 0, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    section h2 {
+      color: gold;
+      margin-bottom: 15px;
+    }
+
+    aside {
+      flex: 1;
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    aside h3 {
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    aside ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    aside ul li {
+      margin: 8px 0;
+    }
+
+    aside ul li a {
+      color: #f3e9ff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    aside ul li a:hover {
+      color: gold;
+    }
+
+    img {
+      border-radius: 8px;
+      margin: 10px 0;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    hr {
+      border: 1px solid rgba(255, 215, 0, 0.3);
+      margin: 20px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background: #1a053d;
+      color: #bbb;
+      margin-top: 30px;
+    }
+
+    footer p {
+      font-size: 0.9em;
+    }
+    p {
+  background: rgba(255, 215, 0, 0.08); /* faint gold tint */
+  padding: 12px 18px;
+  border-left: 4px solid gold;
+  border-radius: 6px;
+  margin: 15px 0;
+  color: #f6b709;
+  font-size: 1.05em;
+  line-height: 1.7;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+p:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Welcome to my website</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Hobbies.html">My Hobbies</a></li>
+        <li><a href="Music.html">My Music</a></li>
+        <li><a href="Even_More_Game_Lore.html">Further Game Lore...</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="columns">
+    <section>
+      <h2>Welcome!</h2>
+      <p>This site is about <strong>my personal favorite YouTubers, why I like watching them, and what they do</strong>. Here you'll hopefully find short, non-boring info about what I enjoy watching.</p>
+      <p>&copy; 2025 Toad Wiz - Culley McDowell &mdash; All hail the frogs 🐸.</p>
+    </section>
+    <aside>
+      <h3>Some channels I like</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/channel/UCzEy7pi3B7TIS9cn_sdKK9A">GraystillPlays</a></li>
+        <li><a href="https://www.youtube.com/user/MarkiplierGAME">Markiplier</a></li>
+        <li><a href="https://www.youtube.com/user/PewDiePie">PewDiePie</a></li>
+        <li><a href="https://www.youtube.com/user/Jacksfilms">Jacksfilms</a></li>
+        <li><a href="https://www.youtube.com/user/penguinz0">Moist Critical</a></li>
+        <li><a href="https://www.youtube.com/c/ScottTheWoz">Scott The Woz</a></li>
+        <li><a href="https://www.youtube.com/c/MatPatGT">The Game Theorists</a></li>
+        <li><a href="https://www.youtube.com/c/FilmTheorists">The Film Theorists</a></li>
+        <li><a href="https://www.youtube.com/popularmmos">PopularMMOs</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <hr>
+
+  <section style="max-width: 1000px; margin: auto; padding: 20px;">
+    <h2>Here are some YouTubers I watch</h2>
+
+    <p><img src="images/Graystillplays.jpg" alt="GraystillPlays Logo" width="120"></p>
+    <p>GraystillPlays is a YouTuber who plays wild games from Universe Sandbox to Sims and GTA 5. Always hilarious.</p>
+    <hr>
+
+    <p><img src="images/Markiplier.jpg" alt="Markiplier Logo" width="120"></p>
+    <p>Markiplier — been watching him since I was a kid, still one of my top favorites.</p>
+    <hr>
+
+    <p><img src="images/Pewdipie.jpg" alt="PewDiePie Logo" width="120"></p>
+    <p>PewDiePie — former #1 subscribed YouTuber, still one of the most influential creators.</p>
+    <hr>
+
+    <p><img src="images/Jacksfilms.jpg" alt="Jacksfilms Logo" width="120"></p>
+    <p>Jacksfilms — parody, comedy, and chaos. Always funny and oddly relatable.</p>
+    <hr>
+
+    <p><img src="images/Moist.jpg" alt="Moist Critical Logo" width="120"></p>
+    <p>Moist Critical (Cr1tikal) — comedy, game reviews, and sarcasm galore.</p>
+    <hr>
+
+    <p><img src="images/Scott.jpg" alt="Scott The Woz Logo" width="120"></p>
+    <p>Scott The Woz — gaming comedy & reviews that are actually informative.</p>
+    <hr>
+
+    <p><img src="images/TGT.jpg" alt="The Game Theorists Logo" width="120"></p>
+    <p>The Game Theorists — deep dives into game lore. Classic MatPat brain fuel.</p>
+    <hr>
+
+    <p><img src="images/FilmTheroy.jpg" alt="The Film Theorists Logo" width="120"></p>
+    <p>The Film Theorists — theories about movies & shows. Same MatPat madness, different flavor.</p>
+    <hr>
+
+    <p><img src="images/Pat.jpg" alt="PopularMMOs Logo" width="120"></p>
+    <p>PopularMMOs — the Minecraft legend. Despite setbacks, still an icon.</p>
+  </section>
+
+  <footer>
+    <p>What are you doing down here buddy? Looking for secrets?</p>
+  </footer>
+</body>
+</html>
