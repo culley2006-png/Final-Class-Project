@@ -220,9 +220,16 @@ li {
   margin: 5px 0; /* adds space between items */
   font-weight: bold; /* makes them pop */
 }
-
-
-
+      /* Keep the logo a reasonable size and add a top border */
+      .logo {
+        display: block;
+        max-width: 640px;
+        width: 100%;
+        height: auto;
+        margin: 0.5rem auto;
+        border-top: 6px solid #222;
+        box-sizing: border-box;
+      }
 
 
 /* End of stinky page styles */
