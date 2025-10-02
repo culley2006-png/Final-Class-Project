@@ -1,0 +1,228 @@
+/* Page Styels*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0D1B2A; /*I am a sucker for how this looked previously. gold with navy blue sticks out */
+    color: #E0E1DD; /* soft off-white text for contrast */
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    color: #FFD700; 
+    text-align: center;
+}
+
+h2 {
+    color:#FFD700; 
+}
+
+nav ul {
+    list-style: none;
+    background-color: #1B263B; 
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: block;
+    margin: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: #0D1B2A;
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 110px;
+    height: auto;
+    line-height: normal;
+    font-size: 18px;
+    border: 2px solid #FFD700;
+    margin: 5px;
+}
+
+nav ul li a:hover {
+    color: #E0E1DD; 
+    text-decoration: underline;
+}
+
+.main_content_of_helldivers_2{
+    padding: 45px;
+    margin: 10px;
+}
+
+.col {
+    padding: 45px;
+    margin: 10px; 
+}
+
+.col img {
+    border-radius: 15px;
+    border: 3px solid #1B263B;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 20px; /* make paragraph text bigger */
+    line-height: 1.6; /* optional: gives more breathing room between lines */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px; /* to fix the images being big */
+  width: 100%;
+  height: auto; /* keeps proportions correct */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #778DA9;
+}
+
+/* Base: desktop */
+body {
+  background-color: #0D1B2A;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  body {
+    background-color: #1B263B;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  /* Slightly smaller nav text on very small screens */
+  nav ul li a {
+    font-size: 16px;
+    min-width: 90px;
+    padding: 6px 10px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: #415A77;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  body {
+    background-color: #778DA9;
+  }
+}
+.col img {
+border-radius: 15px;
+border: 3px solid #1B263B;
+}
+p {
+    font-size: 20px; /* make paragraph text bigger */
+    line-height: 1.6; /* optional: gives more breathing room between lines */
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px; /* to fix the images being big */
+  height: auto; /* keeps proportions correct */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #778DA9;
+}
+/* Responsive video stuff */
+.video-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.45);
+}
+
+.video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* optional styling for caption & layout */
+.video-figure {
+  margin: 18px 0;
+  max-width: 900px; /* keeps the page neat */
+}
+.video-figure figcaption {
+  margin-top: 8px;
+  color: #ffd700; /* or whatever theme color you use */
+  font-size: 0.95rem;
+}
+.video-figure a { color: inherit; text-decoration: underline; }
+
+/* Stylin the p tags ghostly green */
+p {
+  color: #2a0275; /* purple. looks pretty good.s */
+  text-shadow: 0 0 6px purple, 0 0 12px #bcff21; /* glowing ghost effect */
+  font-weight: 500;
+}
+h1, h2, h3 {
+  color: #920808; /* burgendy for headings */
+  text-shadow: 0 0 6px , 0 0 12px #241a1a; /* glowing effect */
+}
+section img {
+  margin: 10px;
+  display: inline-block;
+}
+iframe {
+  display: block;          
+  margin: 20px auto;       
+  border-radius: 10px;     
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5); 
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  color: #000000eb; /* burgendy*/
+  list-style-type: square; 
+}
+
+/* Style ordered list (numbered) */
+ol {
+  color: #290000eb; /* black simple easy to read text */
+  list-style-type: upper-roman; /* Them dang fancy Roman numerals */
+}
+
+/* Optional: style list items individually */
+li {
+  margin: 5px 0; /* adds space between items */
+  font-weight: bold; /* makes them pop */
+}
+
+
+
+
+
+/* End of stinky page styles */
