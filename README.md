@@ -1,6 +1,6 @@
 # The finale Class Project
 <p>for the final project of my citc 1300 class
-the links; I really hope this works and doesn't 404<p>
+the links here on github dont work even though they are literally the same. Go into deployments and it will "instantly take you to the introduction screen.<p>
 <ul>
     <li><a href="./Culleys_intro/index.html" target="_blank">Culleys Intro To his second website.</a></li>
     <li><a href="./Hobbies/index.html" target="_blank"> My Hobbies that I like to do.</a></li>
